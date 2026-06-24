@@ -1,0 +1,103 @@
+.dashboard-container {
+  padding: 25px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.dashboard-title {
+  margin-bottom: 25px;
+  color: #222;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Cards */
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  padding: 25px;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+  transition: 0.3s;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.stat-card p {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Colors */
+
+.products {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.customers {
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+}
+
+.orders {
+  background: linear-gradient(135deg, #fa709a, #fee140);
+}
+
+.revenue {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Chart */
+
+.chart-section {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* Low Stock */
+
+.low-stock-section {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.low-stock-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.low-stock-section th,
+.low-stock-section td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.low-stock-section th {
+  background: #f8f9fa;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 50px;
+}
