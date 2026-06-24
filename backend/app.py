@@ -16,13 +16,13 @@ from routes.dashboard_routes import dashboard_bp
 
 def create_app():
     app = Flask(__name__)
-    # CORS(app)
     app.config.from_object(Config)
-    CORS(app,
-        resources={r"/api/*": {"origins": "http://localhost:5173"}},
-        allow_headers=["Content-type", "Authorization"],
-        methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"]
-    )
+    # CORS(app,
+    #     resources={r"/*": {"origins": "*"}},
+    #     allow_headers=["Content-type", "Authorization"],
+    #     methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"]
+    # )
+    CORS(app)
     db.init_app(app)
     migrate.init_app(app, db)
     jwt.init_app(app)

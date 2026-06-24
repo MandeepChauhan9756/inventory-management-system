@@ -37,5 +37,19 @@ services:
       DATABASE_URL: postgresql://postgres:postgres@db:5432/inventory_db
       JWT_SECRET_KEY: inventory_secret_key
 
+  frontend:
+    build:
+      context: ./frontend
+
+    container_name: inventory_frontend
+
+    restart: always
+
+    ports:
+      - "3000:80"
+
+    depends_on:
+      - backend
+
 volumes:
   postgres_data:
