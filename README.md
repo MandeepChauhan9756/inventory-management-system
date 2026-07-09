@@ -169,7 +169,7 @@ Features include:
 ## 📦 Product Management
 
 <p align="center">
-<img src="assets/screenshots/products.png" width="900">
+<img src="assets/products.png" width="900">
 </p>
 
 ---
