@@ -1,4 +1,4 @@
-<img width="2876" height="1718" alt="image" src="https://github.com/user-attachments/assets/0d159065-9022-4877-8d5a-fbc6a8a7e989" /><div align="center">
+<div align="center">
 
 # 🚀 Inventory Pro
 
@@ -145,6 +145,38 @@ Features include:
 - Manage Cart
 - Customer Selection
 - Order Summary
+
+---
+
+# 📸 Screenshots
+
+## 🔐 Login
+
+(Add Login Screenshot)
+
+---
+
+## 📊 Dashboard
+
+(Add Dashboard Screenshot)
+
+---
+
+## 📦 Product Management
+
+(Add Product Screenshot)
+
+---
+
+## 👥 Customer Management
+
+(Add Customer Screenshot)
+
+---
+
+## 🛒 Order Management
+
+(Add Order Screenshot)
 
 ---
 
