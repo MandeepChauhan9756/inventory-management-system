@@ -152,31 +152,41 @@ Features include:
 
 ## 🔐 Login
 
-(Add Login Screenshot)
+<p align="center">
+<img src="assets/login.png" width="900">
+</p>
 
 ---
 
 ## 📊 Dashboard
 
-(Add Dashboard Screenshot)
+<p align="center">
+<img src="assets/dashboard.png" width="900">
+</p>
 
 ---
 
 ## 📦 Product Management
 
-(Add Product Screenshot)
+<p align="center">
+<img src="assets/screenshots/products.png" width="900">
+</p>
 
 ---
 
 ## 👥 Customer Management
 
-(Add Customer Screenshot)
+<p align="center">
+<img src="assets/customers.png" width="900">
+</p>
 
 ---
 
 ## 🛒 Order Management
 
-(Add Order Screenshot)
+<p align="center">
+<img src="assets/orders.png" width="900">
+</p>
 
 ---
 
